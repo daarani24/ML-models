@@ -1,3 +1,5 @@
+import os
+print(os.listdir())
 from fastapi import FastAPI
 import joblib
 import numpy as np
