@@ -19,8 +19,8 @@ def home():
 def predict(data: dict):
     try:
        
-        crop = data["crop"]
-        soil = data["soil"]
+        crop = data["crop"].lower()
+        soil = data["soil"].lower()
         land = data["land"]
         days = data["days"]
 
